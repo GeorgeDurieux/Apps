@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet">
+  <title>Rock Paper Scissors</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="game-board">    
+    <div id="score-board">
+      <div id="opponent-choice-background">
+        <div data-tooltip="Opponent's Choice" class="tooltip-trigger" id="opponent-choice">?</div>
+      </div>
+      <p id="result-text">Ready???</p>
+      <p id="result-list">Wins: 0<br>Draws: 0<br>Losses: 0</p>
+    </div>
+    <hr></hr>
+    <div id="buttons">
+      <button data-tooltip="Choose Rock" class="choice-button tooltip-trigger" id="rock">✊</button>
+      <button data-tooltip="Choose Paper" class="choice-button tooltip-trigger" id="paper">✋</button>
+      <button data-tooltip="Choose Scissors" class="choice-button tooltip-trigger" id="scissors">✌️</button>  
+    </div>
+    <hr></hr>
+    <button id="reset-button">Reset</button>
+  </div>    
+</body>
+</html>
