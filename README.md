@@ -2,7 +2,7 @@ Welcome to Rock Paper Scissors! This is a simple web-based game where you can ch
 
 HOW TO PLAY:
 
-Choose Your Move: Click on one of the buttons labeled Rock, Paper, or Scissors to select your move.
+Choose Your Move: Click on one of the buttons labeled Rock, Paper, or Scissors to select your move. <br />
 See the Result: After you make your choice, the computer will randomly select its move, and the result will be displayed on the screen.
 View the Score: Keep track of your wins, draws, and losses in the score section.
 Reset the Game: If you want to start over, simply click the "Reset" button to reset the scores and play again.
